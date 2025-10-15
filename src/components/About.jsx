@@ -14,10 +14,10 @@ const About = () => {
           <div className="about-card card">
             <h3>Who We Are</h3>
             <p>
-              Indo Global Manpower Services (IGMS), established in 2025, is a professionally managed overseas recruitment agency approved by the Ministry of External Affairs, Government of India under Registration Certificate No. B-3135/HP/PER/100/5/11139/2025.
+              Indo Global Manpower Services (IGMS) is a professionally managed overseas recruitment agency approved by the Ministry of External Affairs, Government of India under Registration Certificate No. B-3135/HP/PER/100/5/11139/2025.
             </p>
             <p>
-              Though officially registered in 2025, IGMS has been supplying manpower since 2012 for major Oil & Gas, Civil, and Mechanical projects across the Gulf, Europe, and Asia.
+               IGMS has been supplying manpower since 2012 for major Oil & Gas, Civil, and Mechanical projects across the Gulf, Europe, and Asia.
             </p>
           </div>
 
@@ -39,7 +39,7 @@ const About = () => {
           <div className="about-card card">
             <h3>Categories We Recruit</h3>
             <p>
-              Mechanical, Civil, and Plant & Machinery (P&M) — operators, drivers, technicians, and other skilled professionals.
+              Skilled and Unskilled Workers across Oil & Gas, Mechanical, Civil, and Plant & Machinery (P&M) — including operators, drivers, technicians, and field staff.
             </p>
           </div>
         </div>
@@ -77,9 +77,6 @@ const About = () => {
             <ul className="about-list">
               <li><strong>Approved by</strong>: Ministry of External Affairs, Government of India</li>
               <li><strong>R.C. No.</strong>: B-3135/HP/PER/100/5/11139/2025</li>
-              <li><strong>Date of Issue</strong>: 04 September 2025</li>
-              <li><strong>Valid Until</strong>: 23 June 2030</li>
-              <li><strong>Authorized Recruitment Limit</strong>: 100 Workers</li>
               <li><strong>Proprietor</strong>: Mr. Vinay Kumar Sharma</li>
               <li><strong>Approved Under</strong>: Section 11 of the Emigration Act, 1983</li>
             </ul>

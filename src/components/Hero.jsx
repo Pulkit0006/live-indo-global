@@ -17,7 +17,7 @@ const Hero = () => {
             </h1>
             <p className="hero-subtitle">
               Indo Global Manpower Services provides professional manpower solutions 
-              across the globe. We connect skilled workers with opportunities worldwide, 
+              across the globe. We connect skilled and unskilled workers with opportunities worldwide, 
               ensuring quality service and reliable partnerships.
             </p>
             <div className="hero-actions">
@@ -32,11 +32,11 @@ const Hero = () => {
           
           <div className="hero-stats">
             <div className="stat-item">
-              <h3>500+</h3>
+              <h3>5000+</h3>
               <p>Successful Placements</p>
             </div>
             <div className="stat-item">
-              <h3>50+</h3>
+              <h3>15+</h3>
               <p>Countries Served</p>
             </div>
             <div className="stat-item">

@@ -9,9 +9,14 @@ const Services = () => {
       description: 'We provide skilled manpower for international markets across various industries including construction, healthcare, IT, and hospitality.'
     },
     {
+      icon: '🛢️',
+      title: 'Oil & Gas Workforce',
+      description: 'Specialized recruitment for Oil & Gas projects with safety-compliant, experienced workforce across upstream and downstream.'
+    },
+    {
       icon: '👷',
-      title: 'Skilled Workers',
-      description: 'Our network includes highly skilled professionals in construction, engineering, healthcare, and technical fields ready for global opportunities.'
+      title: 'Skilled & Unskilled Workers',
+      description: 'From certified professionals to reliable general workforce — operators, riggers, helpers, drivers, technicians, and more.'
     },
     {
       icon: '📋',
@@ -27,11 +32,6 @@ const Services = () => {
       icon: '✈️',
       title: 'Relocation Support',
       description: 'End-to-end support for workers including travel arrangements, accommodation assistance, and initial settlement support.'
-    },
-    {
-      icon: '📞',
-      title: '24/7 Support',
-      description: 'Round-the-clock assistance for both workers and employers to ensure smooth operations and quick problem resolution.'
     }
   ];
 

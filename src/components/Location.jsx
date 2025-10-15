@@ -41,19 +41,19 @@ const Location = () => {
               <div className="location-icon">
                 <span>🌍</span>
               </div>
-              <h3>Why Una, Himachal Pradesh?</h3>
+              <h3>Why Indo Global?</h3>
               <div className="location-benefits">
-                <p>• Strategic location in Northern India</p>
-                <p>• Easy access to major cities</p>
-                <p>• Beautiful and peaceful environment</p>
-                <p>• Close to international borders</p>
+                <p>• MEA-approved recruitment agency with proven compliance</p>
+                <p>• 5000+ successful international placements</p>
+                <p>• Strong presence in Oil & Gas, Civil, and Mechanical sectors</p>
+                <p>• Transparent processes, fast mobilization, client-first approach</p>
               </div>
             </div>
           </div>
           
           <div className="map-container">
             <iframe
-              src="https://www.google.com/maps?q=SCO%201%20%26%202,%203rd%20Floor,%20Jiwan%20Market,%20Una,%20Himachal%20Pradesh%20%E2%80%93%20174303,%20India&output=embed"
+              src="https://www.google.com/maps/search/?api=1&query=Jiwan%20Market%2C%20Una"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -68,7 +68,7 @@ const Location = () => {
                 <p>Our office is located in the beautiful state of Himachal Pradesh, known for its scenic beauty and strategic location.</p>
                 <div className="map-actions">
                   <a 
-                    href="https://www.google.com/maps?q=SCO%201%20%26%202,%203rd%20Floor,%20Jiwan%20Market,%20Una,%20Himachal%20Pradesh%20%E2%80%93%20174303,%20India" 
+                    href="https://www.google.com/maps/search/?api=1&query=Jiwan%20Market%2C%20Una" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn btn-primary"
@@ -76,7 +76,7 @@ const Location = () => {
                     View on Google Maps
                   </a>
                   <a 
-                    href="https://wa.me/919816377660?text=Hi,%20please%20share%20directions%20to%20SCO%201%20%26%202,%203rd%20Floor,%20Jiwan%20Market,%20Una,%20Himachal%20Pradesh%20%E2%80%93%20174303,%20India" 
+                    href="https://wa.me/919816377660?text=Hi,%20please%20share%20directions%20to%20Jiwan%20Market,%20Una" 
                     className="btn btn-whatsapp"
                   >
                     WhatsApp Directions

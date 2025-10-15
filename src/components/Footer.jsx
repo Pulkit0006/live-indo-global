@@ -15,7 +15,7 @@ const Footer = () => {
               Your trusted partner for international manpower solutions.
             </p>
             <div className="social-links">
-              <a href="https://wa.me/916230233660" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/919816377660" target="_blank" rel="noopener noreferrer">
                 <span>💬</span> WhatsApp
               </a>
               <a href="tel:+911975297755">
@@ -41,7 +41,7 @@ const Footer = () => {
             <h4>Our Services</h4>
             <ul>
               <li>International Placements</li>
-              <li>Skilled Workers</li>
+              <li>Skilled and Unskilled Workers</li>
               <li>Documentation Support</li>
               <li>Employer Services</li>
               <li>Relocation Support</li>
