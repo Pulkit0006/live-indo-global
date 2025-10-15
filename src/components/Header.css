@@ -28,6 +28,10 @@
   font-weight: 700;
   margin: 0;
 }
+.logo small {
+  display: block;
+  color: #64748b;
+}
 
 .nav {
   display: flex;
@@ -99,6 +103,10 @@
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
+  }
+
+  .nav a {
+    padding: 0.5rem 0;
   }
 
   .nav.nav-open {
