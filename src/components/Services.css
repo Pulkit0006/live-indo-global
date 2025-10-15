@@ -29,7 +29,7 @@
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
+  gap: 1.25rem;
   margin-bottom: 4rem;
 }
 
@@ -115,19 +115,19 @@
 @media (max-width: 768px) {
   .services-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .service-card {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
   .services-cta {
-    padding: 2rem 1.5rem;
+    padding: 1.25rem 1rem;
   }
 
   .services-cta h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .cta-actions {
@@ -137,6 +137,6 @@
 
   .cta-actions .btn {
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
   }
 }

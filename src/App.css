@@ -7,6 +7,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Prevent content from hiding behind fixed header */
+body {
+  padding-top: 64px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 58px;
+  }
+}
+
 /* Global animations */
 @keyframes fadeInUp {
   from {

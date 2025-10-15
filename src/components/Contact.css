@@ -23,7 +23,7 @@
 .contact-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  gap: 2rem;
   margin-bottom: 3rem;
 }
 
@@ -187,23 +187,21 @@
 @media (max-width: 768px) {
   .contact-content {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.25rem;
   }
 
-  .contact-form {
-    padding: 1.5rem;
-  }
+  .contact-form { padding: 1rem; }
 
   .contact-cta {
-    padding: 2rem 1.5rem;
+    padding: 1.25rem 1rem;
   }
 
   .cta-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .cta-content p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .cta-buttons {
@@ -213,6 +211,6 @@
 
   .cta-buttons .btn {
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
   }
 }
