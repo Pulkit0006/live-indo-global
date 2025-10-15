@@ -1,0 +1,144 @@
+.location {
+  background: white;
+}
+
+.location-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.location-card {
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.location-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.location-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.location-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.address-details p,
+.hours-details p,
+.location-benefits p {
+  margin-bottom: 0.5rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.location-benefits p {
+  text-align: left;
+  margin-bottom: 0.3rem;
+}
+
+.map-container {
+  height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+.map-overlay {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.map-content {
+  text-align: center;
+  color: #2c3e50;
+  z-index: 1;
+  position: relative;
+}
+
+.map-content h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: #2c3e50;
+}
+
+.map-content p {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.map-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.map-actions .btn {
+  font-size: 0.9rem;
+  padding: 0.8rem 1.2rem;
+  min-width: auto;
+}
+
+@media (max-width: 768px) {
+  .location-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .map-container {
+    height: 400px;
+  }
+
+  .map-content {
+    padding: 1.5rem;
+  }
+
+  .map-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .map-content p {
+    font-size: 1rem;
+  }
+
+  .map-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map-actions .btn {
+    width: 100%;
+    max-width: 250px;
+  }
+}
