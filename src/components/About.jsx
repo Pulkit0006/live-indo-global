@@ -12,7 +12,7 @@ const About = () => {
 
         <div className="about-grid">
           <div className="about-card card">
-            <h3>About Us</h3>
+            <h3>Who We Are</h3>
             <p>
               Indo Global Manpower Services (IGMS) is a professionally managed overseas recruitment agency approved by the Ministry of External Affairs, Government of India under Registration Certificate No. B-3135/HP/PER/100/5/11139/2025.
             </p>

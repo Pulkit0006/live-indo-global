@@ -2,6 +2,8 @@ import React from 'react';
 import './Location.css';
 
 const Location = () => {
+  console.log("✅ Location component loaded"); // Debug check
+
   return (
     <section id="location" className="section location">
       <div className="container">
@@ -11,9 +13,10 @@ const Location = () => {
             Visit us at our headquarters in Una, Himachal Pradesh
           </p>
         </div>
-        
+
         <div className="location-content">
           <div className="location-info">
+            {/* Office Address */}
             <div className="location-card card">
               <div className="location-icon">
                 <span>📍</span>
@@ -25,7 +28,8 @@ const Location = () => {
                 <p>Una, Himachal Pradesh – 174303, India</p>
               </div>
             </div>
-            
+
+            {/* Office Hours */}
             <div className="location-card card">
               <div className="location-icon">
                 <span>🕒</span>
@@ -36,7 +40,8 @@ const Location = () => {
                 <p><strong>Sunday:</strong> Closed</p>
               </div>
             </div>
-            
+
+            {/* Why Indo Global */}
             <div className="location-card card">
               <div className="location-icon">
                 <span>🌍</span>
@@ -50,33 +55,40 @@ const Location = () => {
               </div>
             </div>
           </div>
-          
+
+          {/* Google Map */}
           <div className="map-container">
             <iframe
-              src="https://www.google.com/maps/search/?api=1&query=Jiwan%20Market%2C%20Una"
+              src="https://www.google.com/maps?q=Jiwan%20Market,%20Una,%20Himachal%20Pradesh&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowFullScreen=""
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Indo Global Manpower Services - Office Location"
             ></iframe>
+
             <div className="map-overlay">
               <div className="map-content">
                 <h3>📍 Una, Himachal Pradesh</h3>
-                <p>Our office is located in the beautiful state of Himachal Pradesh, known for its scenic beauty and strategic location.</p>
+                <p>
+                  Our office is located in the beautiful state of Himachal Pradesh,
+                  known for its scenic beauty and strategic location.
+                </p>
                 <div className="map-actions">
-                  <a 
-                    href="https://www.google.com/maps/search/?api=1&query=Jiwan%20Market%2C%20Una" 
-                    target="_blank" 
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Jiwan%20Market,%20Una"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary"
                   >
                     View on Google Maps
                   </a>
-                  <a 
-                    href="https://wa.me/919816377660?text=Hi,%20please%20share%20directions%20to%20Jiwan%20Market,%20Una" 
+                  <a
+                    href="https://wa.me/919816377660?text=Hi,%20please%20share%20directions%20to%20Jiwan%20Market,%20Una"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="btn btn-whatsapp"
                   >
                     WhatsApp Directions
