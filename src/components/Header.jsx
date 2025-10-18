@@ -28,7 +28,7 @@ const Header = () => {
         <div className="header-content">
           <div className="logo">
             <h2>Indo Global Manpower Services (IGMS)</h2>
-            <small>Overseas Recruitment Agency (MEA, Govt. of India)</small>
+            <small>Overseas Recruitment Agency (Approved By MEA, Govt. of India)</small>
           </div>
           
           <nav className={`nav ${isMobileMenuOpen ? 'nav-open' : ''}`}>
