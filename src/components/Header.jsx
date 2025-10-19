@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
+import logo from '../assets/logooo.png'; // ✅ Add your logo path here
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,11 +27,18 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="header-content">
-          <div className="logo">
-            <h2>Indo Global Manpower Services (IGMS)</h2>
-            <small>Overseas Recruitment Agency (Approved By MEA, Govt. of India)</small>
+          {/* ✅ Logo + Text */}
+          <div className="logo-container">
+            <img src={logo} alt="IGMS Logo" className="company-logo" />
+            <div className="logo-text">
+              <h2>Indo Global Manpower Services (IGMS)</h2>
+              <small>
+                Overseas Recruitment Agency <br /> (Approved By MEA, Govt. of India)
+              </small>
+            </div>
           </div>
-          
+
+          {/* ✅ Navbar Links */}
           <nav className={`nav ${isMobileMenuOpen ? 'nav-open' : ''}`}>
             <a href="#home" onClick={() => scrollToSection('home')}>Home</a>
             <a href="#about" onClick={() => scrollToSection('about')}>About</a>
@@ -39,11 +47,12 @@ const Header = () => {
             <a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a>
           </nav>
 
+          {/* ✅ Call + Mobile Menu */}
           <div className="header-actions">
             <a href="tel:+911975297755" className="btn btn-primary">
               Call Now
             </a>
-            <button 
+            <button
               className="mobile-menu-btn"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
