@@ -9,7 +9,7 @@ const Services = () => {
       description: 'We provide skilled manpower for international markets across various industries including construction, healthcare, IT, and hospitality.'
     },
     {
-      icon: '🛢️',
+      icon: '👨‍🔧',
       title: 'Oil & Gas Workforce',
       description: 'Specialized recruitment for Oil & Gas projects with safety-compliant, experienced workforce across upstream and downstream.'
     },

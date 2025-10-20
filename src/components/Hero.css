@@ -179,6 +179,11 @@
 }
 
 @media (max-width: 768px) {
+  /* Offset for fixed header on small screens */
+  .hero {
+    padding-top: 90px;
+  }
+
   .hero-content {
     grid-template-columns: 1fr;
     gap: 1.25rem;
