@@ -83,6 +83,7 @@
   background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(30, 64, 175, 0.1) 100%);
   border-radius: 20px;
   transition: all 0.5s ease;
+  overflow: hidden;
 }
 
 .service-card:hover .service-icon {
@@ -94,6 +95,13 @@
   font-size: 2.5rem;
   display: block;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.service-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
 .service-title {
