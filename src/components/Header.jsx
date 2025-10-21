@@ -31,7 +31,7 @@ const Header = () => {
           <div className="logo-container">
             <img src={logo} alt="IGMS Logo" className="company-logo" />
             <div className="logo-text">
-              <h2>Indo Global Manpower Services (IGMS)</h2>
+              <h2>Indo Global Manpower Services</h2>
               <small>
                 Overseas Recruitment Agency <br /> (Approved By MEA, Govt. of India)
               </small>
