@@ -91,6 +91,11 @@
   background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(30, 64, 175, 0.2) 100%);
 }
 
+.service-card:hover .service-photo {
+  transform: scale(1.05);
+  filter: brightness(1) contrast(1.2) saturate(1.2);
+}
+
 .icon-emoji {
   font-size: 2.5rem;
   display: block;
@@ -102,6 +107,8 @@
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
+  transition: all 0.3s ease;
+  filter: brightness(0.9) contrast(1.1) saturate(1.1);
 }
 
 .service-title {
@@ -184,6 +191,11 @@
   .service-icon {
     width: 70px;
     height: 70px;
+    border-radius: 16px;
+  }
+
+  .service-photo {
+    filter: brightness(0.9) contrast(1.1) saturate(1.1);
   }
 
   .icon-emoji {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
-import logo from '../assets/logoo.png'; // ✅ Add your logo path here
+import logo from '../assets/gem.png'; // IGMS Logo
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);

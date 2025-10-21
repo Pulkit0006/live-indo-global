@@ -1,35 +1,36 @@
 import React from 'react';
 import './Services.css';
+import oilImage from '../assets/oil.jpg';
 
 const Services = () => {
   const services = [
     {
-      icon: '🌍',
+      image: 'https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3',
       title: 'International Placements',
       description: 'We provide skilled manpower for international markets across various industries including construction, healthcare, IT, and hospitality.'
     },
     {
-      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop',
-      title: 'Construction Workforce',
-      description: 'Specialized recruitment for construction projects with safety-compliant, experienced workforce for residential, commercial, and industrial developments.'
+      image: oilImage,
+      title: 'Oil & Gas Workforce',
+      description: 'Specialized recruitment for oil and gas industry with certified, experienced professionals for drilling, refining, petrochemical, and offshore operations.'
     },
     {
-      icon: '👷',
+      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3',
       title: 'Skilled & Unskilled Workers',
       description: 'From certified professionals to reliable general workforce — operators, riggers, helpers, drivers, technicians, and more.'
     },
     {
-      icon: '📋',
+      image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3',
       title: 'Documentation Support',
       description: 'Complete assistance with visa processing, work permits, and all necessary documentation for international employment.'
     },
     {
-      icon: '🤝',
+      image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3',
       title: 'Employer Services',
       description: 'We help employers find the right talent for their projects with our comprehensive recruitment and placement services.'
     },
     {
-      icon: '✈️',
+      image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3',
       title: 'Relocation Support',
       description: 'End-to-end support for workers including travel arrangements, accommodation assistance, and initial settlement support.'
     }
@@ -49,11 +50,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div key={index} className="service-card card fade-in-up">
               <div className="service-icon">
-                {service.image ? (
-                  <img src={service.image} alt={service.title} className="service-photo" />
-                ) : (
-                  <span className="icon-emoji">{service.icon}</span>
-                )}
+                <img src={service.image} alt={service.title} className="service-photo" />
               </div>
               <h3 className="service-title">{service.title}</h3>
               <p className="service-description">{service.description}</p>

@@ -20,22 +20,22 @@
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 18px 40px;
+  padding: 12px 40px;
 }
 
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
-  min-height: 70px;
+  gap: 30px;
+  min-height: 60px;
 }
 
 /* ====== Logo + Text ====== */
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -45,19 +45,17 @@
 }
 
 .company-logo {
-  width: 52px;
-  height: 53px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 2px solid rgba(59, 130, 246, 0.1);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .company-logo:hover {
-  transform: scale(1.05) rotate(2deg);
-  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.25);
-  border-color: rgba(59, 130, 246, 0.2);
+  transform: scale(1.08) translateY(-2px);
+  filter: contrast(1.25) brightness(1.1) saturate(1.2) drop-shadow(0 3px 6px rgba(0,0,0,0.08));
 }
 
 .logo-text h2 {
@@ -218,6 +216,13 @@
   .nav {
     gap: 25px;
   }
+  
+  .company-logo {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    filter: contrast(1.2) brightness(1.05) saturate(1.15);
+  }
 }
 
 @media (max-width: 768px) {
@@ -233,9 +238,10 @@
 
   /* Logo & text */
   .company-logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    filter: contrast(1.2) brightness(1.05) saturate(1.15);
   }
 
   .logo-container {
@@ -317,8 +323,10 @@
   }
 
   .company-logo {
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    filter: contrast(1.2) brightness(1.05) saturate(1.15);
   }
 
   .logo-container {
