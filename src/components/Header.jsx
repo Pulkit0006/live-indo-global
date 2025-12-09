@@ -43,9 +43,16 @@ const Header = () => {
             <a href="#home" onClick={() => scrollToSection('home')}>Home</a>
             <a href="#about" onClick={() => scrollToSection('about')}>About</a>
             <a href="#services" onClick={() => scrollToSection('services')}>Services</a>
+
+            {/* ⭐ New Requirements Section */}
+            <a href="#requirements" onClick={() => scrollToSection('requirements')}>
+              Requirements
+            </a>
+
             <a href="#location" onClick={() => scrollToSection('location')}>Location</a>
             <a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a>
           </nav>
+
 
           {/* ✅ Call + Mobile Menu */}
           <div className="header-actions">
