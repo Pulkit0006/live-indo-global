@@ -135,6 +135,15 @@ body {
   font-size: 1.5rem;
 }
 
+/* Style for making the logo image rounded */
+.logo {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Ensure the image is square for a perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the globe fits within the circle */
+  background-color: transparent; /* Removes any background */
+}
+
 /* Contact form styles */
 .form-group {
   margin-bottom: 1.5rem;
