@@ -1,0 +1,117 @@
+.form-container {
+  max-width: 700px;
+}
+
+.cv-form-wrapper {
+  background: var(--surface);
+  padding: 50px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--surface-alt);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.cv-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--text-heading);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  transition: var(--transition);
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.upload-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border: 2px dashed #cbd5e1;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+  background-color: var(--bg-color);
+  color: var(--text-light);
+  text-align: center;
+}
+
+.upload-box:hover {
+  border-color: var(--primary);
+  background-color: var(--surface-alt);
+}
+
+.upload-icon {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.125rem;
+  margin-top: 10px;
+}
+
+.success-message {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ecfdf5;
+  border-radius: var(--radius-md);
+  color: var(--success);
+}
+
+.success-message h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.success-message p {
+  color: var(--text-main);
+}
+
+.alt-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn-whatsapp {
+  background-color: var(--whatsapp);
+  color: white;
+}
+.btn-whatsapp:hover { background-color: #128c7e; transform: translateY(-2px); }
+
+.btn-email {
+  background-color: var(--primary-light);
+  color: white;
+}
+.btn-email:hover { background-color: var(--primary); transform: translateY(-2px); }
+
+@media (max-width: 600px) {
+  .cv-form-wrapper { padding: 30px 20px; }
+  .alt-buttons { flex-direction: column; }
+}
